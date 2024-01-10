@@ -1,107 +1,362 @@
-:root {
-  --max-width: 1100px;
-  --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
-
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-
-  --primary-glow: conic-gradient(
-    from 180deg at 50% 50%,
-    #16abff33 0deg,
-    #0885ff33 55deg,
-    #54d6ff33 120deg,
-    #0071ff33 160deg,
-    transparent 360deg
-  );
-  --secondary-glow: radial-gradient(
-    rgba(255, 255, 255, 1),
-    rgba(255, 255, 255, 0)
-  );
-
-  --tile-start-rgb: 239, 245, 249;
-  --tile-end-rgb: 228, 232, 233;
-  --tile-border: conic-gradient(
-    #00000080,
-    #00000040,
-    #00000030,
-    #00000020,
-    #00000010,
-    #00000010,
-    #00000080
-  );
-
-  --callout-rgb: 238, 240, 241;
-  --callout-border-rgb: 172, 175, 176;
-  --card-rgb: 180, 185, 188;
-  --card-border-rgb: 131, 134, 135;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-
-    --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
-    --secondary-glow: linear-gradient(
-      to bottom right,
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0.3)
-    );
-
-    --tile-start-rgb: 2, 13, 46;
-    --tile-end-rgb: 2, 5, 19;
-    --tile-border: conic-gradient(
-      #ffffff80,
-      #ffffff40,
-      #ffffff30,
-      #ffffff20,
-      #ffffff10,
-      #ffffff10,
-      #ffffff80
-    );
-
-    --callout-rgb: 20, 20, 20;
-    --callout-border-rgb: 108, 108, 108;
-    --card-rgb: 100, 100, 100;
-    --card-border-rgb: 200, 200, 200;
-  }
-}
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+    color: black;
+    line-height: 1.5em;
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
+/* navigation section */
+
+Nav {
+  position: fixed;
+  right: 0;    
+  top: 0;
+  height: 100%;
+  width: 40%;
+  background-color: #FD7266;
+  font-family: Monospace;
+  font-weight: bolder;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.navigation-items {
+  list-style-type: none;
+  font-size: 4.5rem;
+  color: white;
 }
 
-a {
+.navigation-items a {
+  text-decoration: inherit;
   color: inherit;
-  text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+.navigation-items a:hover {
+  text-decoration: underline;
+}
+
+.social-links {
+  display: inline-block;
+  margin-left: 2.8rem;
+}
+
+.social-links a {
+  margin-right: 1.1rem;
+}
+
+.nav-cover-header {
+  display: none;
+}
+
+/* Main section LHS */
+
+main {
+  position: absolute;
+  width: 60%;
+  top: 0;
+  left: 0;
+  background-color: palegoldenrod;
+  font-family: Monospace;
+}
+
+/* Logo styling */
+
+.logo-container {
+  height: 11rem;
+  margin: 1.7rem 2.2rem;
+  background-color: palegoldenrod;
+}
+
+#logo-black {
+  height: 2.8rem;
+  width: 2.8rem;
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+  background-color: #000000;
+  vertical-align: middle;
+  transition: 
+      margin-left 1s;
+}
+
+#logo-black:hover {
+  margin-left: -1.1rem;
+}
+
+#logo-red {
+  height: 4.2rem;
+  width: 4.2rem;
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+  background-color: #F04F2A;
+  vertical-align: middle;
+  margin-left: -1.4rem;
+  transition: 
+      margin-left 1s;
+}
+
+#logo-red:hover {
+  margin-left: -0.3px;
+}
+
+#logo-blue {
+  height: 5.6rem;
+  width: 5.6rem;
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+  background-color: #2ABDFB;
+  vertical-align: middle;
+  margin-left: -2.8rem;
+  transition: 
+      margin-left 1s;
+}
+
+#logo-blue:hover {
+  margin-left: -4.2rem;
+}
+
+#logo-green {
+  height: 6.9rem;
+  width: 6.9rem;
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+  background-color: #29CE85;
+  vertical-align: middle;
+  margin-left: -4.2rem;
+  transition: 
+      margin-left 1s;
+}
+
+#logo-green:hover {
+  margin-left: -3.1rem;
+}
+
+#logo-image {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: -5.6rem;
+  position: relative;
+}
+
+#logo-image img {
+  height: 8.3rem;
+  width: 8.3rem;
+  border-radius: 50%;
+  transition:
+      rotate 1s;
+}
+
+#logo-image img:hover {
+  rotate: 360deg;
+}
+
+/* About me section */
+
+.about-me-text-container h1 {
+  font-size: 32px;
+}
+
+.about-me-text-container h1:nth-child(2) {
+  display: none;
+}
+
+.about-me-container {
+  margin: 1.7rem 2.2rem;
+  color: black;
+}
+
+/* .about-me-container button { 
+  background: none; 
+  border: none; 
+  font-family: Righteous, Monospace;
+  color: black;
+  text-decoration: underline;
+} */
+
+.about-me-container h5 {
+  display: inline;
+}
+
+/* Projects section */
+
+.projects-container {
+  margin: 1.7rem 2.2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.individual-projects {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  border-top: solid 1px gray;
+}
+
+.individual-projects img {
+  width: 50%;
+  margin-left: 1rem;
+}
+
+
+
+
+
+
+
+/* Skills section */
+.skills-container {
+  margin: 8.3rem 2.2rem;
+  color: white;
+}
+
+/* Contact section */
+.contact-container {
+  margin: 8.3rem 2.2rem;
+  color: white;
+}
+
+
+/* Screen sizes 500px - 1003px (tablets) */
+
+@media only screen and (min-width: 500px) and (max-width: 1003px){
+
+  /* move nav to top of screen */
+
+  body {
+      margin: 0 0;
+      height: 100%;
+      width: 100%;
+      background-color: palegoldenrod;
+  }
+
+  Nav {
+      position: sticky;
+      height: 3.2rem;
+      width: 100%;
+      z-index: 1;
+      display: inline-flex;
+      justify-content: space-between;
+  }
+
+  .navigation-items {
+      width: 60%;
+      font-size: 1rem;
+      display: flex;
+      justify-content: space-between;
+      margin-left: 1rem;
+      padding: 0;
+      height: 1rem;
+  }
+
+  .social-links {
+      width: 15%;
+      height: 3.2rem;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+      margin-right: 1rem;
+      align-items: center;
+  }
+
+  .social-links img {
+      max-width: 1.3rem;
+      max-height: 1.3rem;
+  }
+  
+
+  main {
+      position: relative;
+      left: 0;
+      top: 0;
+      width: 100%;
+  }
+
+}
+
+/* Screen sizes below 500px wide (tablets) */
+
+@media only screen and (max-width: 500px) {
+
+  /* make nav expanding menu */
+  body {
+      margin: 0 0;
+      height: 100%;
+      width: 100%;
+      background-color: palegoldenrod;
+  }
+
+  Nav {
+      height: 100%;
+      width: 100%;
+      z-index: 1;
+  }
+
+  .navigation-items li {
+      font-size: 2rem;
+  }
+
+  .nav-cover-header {
+      position: sticky;
+      height: 3.2rem;
+      width: 100%;
+      z-index: 1;
+      display: inline-flex;
+      justify-content: space-between;
+      background-color: #FD7266;
+  }
+
+  .name-small-screen {
+      width: 60%;
+      display: flex;
+      justify-content: flex-start;
+      margin-left: 1rem;
+      padding: 0;
+      height: 3.2rem;
+      align-items: center;
+  }
+
+  #logo-me img {
+      height: 2rem;
+      width: 2rem;
+      border-radius: 50%;
+  }
+
+  .name-small-screen h3 {
+      color: white;
+      margin-left: 0.5rem;
+  }
+
+  .hamburger-menu {
+      height: 3.2rem;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+      margin-right: 0.5rem;
+      align-items: center;
+  }
+
+  .hamburger-menu button {
+      background: none; 
+      border: none; 
+  }
+
+  main {
+      position: relative;
+      left: 0;
+      top: 0;
+      width: 100%;
+  }
+
+  #logo {
+      display: none;
+  }
+
+  .about-me-text-container h1:nth-child(1) {
+      display: none;
+  }
+
+    .about-me-text-container h1:nth-child(2) {
+      display: block;
   }
 }

@@ -16,7 +16,7 @@ export const myProjects : Project[] = [
         image: "/images/JammmingScreenshot.png",
         alt: "Image of the Jammming homescreen.",
         techStack: "React, JS, Jest",
-        link: "string",
+        link: "https://boisterous-medovik-f79b6d.netlify.app",
 
     },
     {
@@ -26,7 +26,7 @@ export const myProjects : Project[] = [
         image: "/images/MedicationTrackerScreenshot.png",
         alt: "Image of the Medication Tracker homescreen.",
         techStack: "Next.js, React, TS",
-        link: "string",
+        link: "https://gleaming-dodol-3a7961.netlify.app/",
     },
     {
         id: 2,
@@ -34,8 +34,8 @@ export const myProjects : Project[] = [
         description: "Click to add dots to the screen, there are additional buttons for undoing and redoing dots",
         image: "/images/DotsScreenshot.png",
         alt: "Image of the Dots homescreen.",
-        techStack: "Next.js, React, TS",
-        link: "string",
+        techStack: "Next.js, React, TS", 
+        link: "https://dazzling-bienenstitch-e6bddc.netlify.app/",
     },
     {
         id: 3,
@@ -44,7 +44,7 @@ export const myProjects : Project[] = [
         image: "/images/calculatorScreenshot.png",
         alt: "Image of the Calculator.",
         techStack: "React, JS",
-        link: "string",
+        link: "https://idyllic-toffee-c73c20.netlify.app",
     },
     {
         id: 4,
@@ -53,7 +53,7 @@ export const myProjects : Project[] = [
         image: "/images/BossMachineScreenshot.png",
         alt: "Image of the Boss Machine homescreen.",
         techStack: "Express, JS",
-        link: "string",
+        link: "https://github.com/rufusbiggs/boss-machine",
     },
     {
         id: 5,
@@ -62,7 +62,7 @@ export const myProjects : Project[] = [
         image: "/images/findTheHatScreenshot.png",
         alt: "Image of the Find the Hat game.",
         techStack: "JS",
-        link: "string",
+        link: "https://github.com/rufusbiggs/find-the-hat",
     },
 
 ]

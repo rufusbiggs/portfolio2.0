@@ -18,7 +18,7 @@ const ProjectContainer = (project : Project) => {
           <div>
               <p>{project.description}</p>
               <p>Core Technologies: {project.techStack}</p>
-              <h6>{project.link}</h6>
+              <a href={project.link} target="_blank" ><h6>{project.link}</h6></a>
           </div>
           <img src={project.image} alt={project.alt} />
       </div>

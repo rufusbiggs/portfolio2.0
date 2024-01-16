@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 * {
-    color: black;
+    color: #14171A;
     line-height: 1.5em;
 }
 
@@ -13,7 +13,7 @@ Nav {
   top: 0;
   height: 100%;
   width: 40%;
-  background-color: #FD7266;
+  background-color: #AAB8C2;
   font-family: Monospace;
   font-weight: bolder;
 }
@@ -53,7 +53,7 @@ main {
   width: 60%;
   top: 0;
   left: 0;
-  background-color: palegoldenrod;
+  background-color: #E1E8ED;
   font-family: Monospace;
 }
 
@@ -62,7 +62,7 @@ main {
 .logo-container {
   height: 11rem;
   margin: 1.7rem 2.2rem;
-  background-color: palegoldenrod;
+  background-color: #E1E8ED;
 }
 
 #logo-black {
@@ -71,7 +71,7 @@ main {
   border-radius: 50%;
   position: relative;
   display: inline-block;
-  background-color: #000000;
+  background-color: #14171A;
   vertical-align: middle;
   transition: 
       margin-left 1s;
@@ -151,6 +151,10 @@ main {
   rotate: 360deg;
 }
 
+h1 {
+  font-size: 26px;
+}
+
 /* About me section */
 
 .about-me-text-container h1 {
@@ -163,19 +167,17 @@ main {
 
 .about-me-container {
   margin: 1.7rem 2.2rem;
-  color: black;
+  color: #14171A;
+  padding-bottom: 12rem;
 }
-
-/* .about-me-container button { 
-  background: none; 
-  border: none; 
-  font-family: Righteous, Monospace;
-  color: black;
-  text-decoration: underline;
-} */
 
 .about-me-container h5 {
   display: inline;
+}
+
+.about-me-container a {
+  color: #1DA1F2;
+  text-decoration-line: underline;
 }
 
 /* Projects section */
@@ -186,22 +188,60 @@ main {
   flex-direction: column;
 }
 
-.individual-projects {
+.individualProjects {
+  border: solid 1px #14171A;
+  border-radius: 8px;
+  padding: 0 1rem;
+  background-color: #F5F8FA;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.individual-projects-bottom {
   display: flex;
   justify-content: space-between;
   padding: 1rem 0;
-  border-top: solid 1px gray;
 }
 
-.individual-projects img {
-  width: 50%;
+.individual-projects-bottom img {
+  width: 25%;
   margin-left: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.projectTitle {
+  /* padding-top: 3rem; */
+  display: flex;
+}
 
+.projectDescTechLink {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
+.techStack {
+  font-weight: bold;
+}
 
+.projectLink {
+  text-decoration: none;
+}
 
+.projectLinkText {
+  display: flex;
+  align-items: center;
+  height: 22.813px;
+  margin: 15.21px 0;
+  padding-left: 1rem;
+  color: #1DA1F2;
+  text-decoration-line: underline;
+}
+
+.projectLinkText:hover {
+  color: red; /* Change the color of the link text on hover */
+}
 
 
 /* Skills section */
@@ -227,7 +267,7 @@ main {
       margin: 0 0;
       height: 100%;
       width: 100%;
-      background-color: palegoldenrod;
+      background-color: #E1E8ED;
   }
 
   Nav {
@@ -283,7 +323,7 @@ main {
       margin: 0 0;
       height: 100%;
       width: 100%;
-      background-color: palegoldenrod;
+      background-color: #E1E8ED;
   }
 
   Nav {
@@ -303,7 +343,7 @@ main {
       z-index: 1;
       display: inline-flex;
       justify-content: space-between;
-      background-color: #FD7266;
+      background-color: #AAB8C2;
   }
 
   .name-small-screen {

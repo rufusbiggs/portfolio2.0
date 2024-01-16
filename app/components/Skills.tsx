@@ -5,19 +5,37 @@ const Skills = () => {
     <section id="skills">
         <div className="skills-container">
             <h1>Skills</h1>
-            <ul className="skills-list">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Java Script</li>
-                <li>Git</li>
-                <li>Github</li>
-                <li>Postman</li>
-                <li>Selenium</li>
-                <li>Figma</li>
-                <li>MS Excel</li>
+            <div>
+              <h3>Development Technologies</h3>
+              <ul className="skills-list">
+                  <li>TypeScript / JavaScript</li>
+                  <li>React</li>
+                  <li>Git / Github</li>
+                  <li>Node</li>
+                  <li>Next</li>
+                  <li>Redux</li>
+                  <li>Jest / Mocha</li>
+                  <li>Firebase</li>
+                  <li>Express</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Product and Design</h3>
+              <ul>
                 <li>Jira</li>
+                <li>MS Excel Modelling</li>
+                <li>UI/UX Figma</li>
+                <li>QA/QC Selenium and Postman</li>
+              </ul>
+            </div>
+            <div>
+            <h3>Methodologies</h3>
+              <ul>
                 <li>Agile Development</li>
-            </ul>
+                <li>Test Driven Development</li>
+                <li>Financial Modelling</li>
+              </ul>
+            </div>
         </div>
     </section>
   )

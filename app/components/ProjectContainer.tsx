@@ -12,17 +12,19 @@ interface Project {
 
 const ProjectContainer = (project : Project) => {
   return (
-    <>
-      <h3>{project.title}</h3>
-      <div className="individual-projects">
-          <div>
-              <p>{project.description}</p>
-              <p>Core Technologies: {project.techStack}</p>
-              <a href={project.link} target="_blank" ><h6>{project.link}</h6></a>
+    <div className="individualProjects">
+      <div className="projectTitle">
+        <h3>{project.title}</h3>
+        <a href={project.link} target="_blank" className="projectLink" ><p className="projectLinkText" >{project.link}</p></a>
+      </div>
+      <div className="individual-projects-bottom">
+          <div className="projectDescTechLink" >
+              <p className="projectDescription" >{project.description}</p>
+              <p className="techStack" >Tech: {project.techStack}</p>
           </div>
           <img src={project.image} alt={project.alt} />
       </div>
-    </>
+    </div>
   )
 }
 

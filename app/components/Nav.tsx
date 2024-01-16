@@ -13,7 +13,7 @@ const Nav = () => {
         <div className="social-links">
             <a href="https://www.linkedin.com/in/rufus-biggs-519001151/" target="_blank"><img src="/images/linkedinLogo.png" width="32" height="32"></img></a>
             <a href="https://github.com/rufusbiggs" target="_blank"><img src="/images/githubLogo.png" width="32" height="32"></img></a>
-            <a href="/Rufus_Biggs_CV.pdf" download="Rufus_Biggs_CV.pdf" title="Download Rufus' CV"><img src="/images/CVLogo.png" width="32" height="32"></img></a>
+            <a href="/RufusBiggsCV.pdf" download="RufusBiggsCV.pdf" title="Download Rufus' CV"><img src="/images/CVLogo.png" width="32" height="32"></img></a>
         </div>
 
         {/* Header section on smaller screens width < 500px (otherwise hidden) */}

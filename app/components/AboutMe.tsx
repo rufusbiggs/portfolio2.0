@@ -7,7 +7,7 @@ const AboutMe = () => {
             <div className="about-me-text-container">
                 <h1>Rufus Biggs</h1>
                 <h1>About Me</h1> {/* For smaller screens width < 500px */}
-                <p>Hi, I'm Rufus! In 2023 I embarked on a career transition learning a range of web development
+                <p>Hi, I&apos;m Rufus! In 2023 I embarked on a career transition learning a range of web development
                    technologies alongside completing several courses. I have used React, Next and 
                    Firebase to build and launch a full-stack web app and - most importantly - 
                    discovered a real passiong for coding in the process.</p>

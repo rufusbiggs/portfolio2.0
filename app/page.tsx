@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <head>
-          <title>Rufus' Web Portfolio</title>
+          <title>Rufus&apos; Web Portfolio</title>
           <link rel="stylesheet" href="style.css"></link>
           <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet"></link>
           <meta name="viewport" content="width, initial-scale=1"></meta>

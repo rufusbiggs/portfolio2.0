@@ -12,7 +12,7 @@ export const myProjects : Project[] = [
     {
         id: 0,
         title: "Jammming",
-        description: "Using the spotify API this app let's you create your own playlists and add them to your spotify account.",
+        description: "Using the spotify API this app lets you create your own playlists and add them to your spotify account.",
         image: "/images/JammmingScreenshot.png",
         alt: "Image of the Jammming homescreen.",
         techStack: "React, JS, Jest",
@@ -31,7 +31,7 @@ export const myProjects : Project[] = [
     {
         id: 2,
         title: "Dots",
-        description: "Click to add dots to the screen, there are additional buttons for undoing and redoing dots",
+        description: "My first project using TypeScript. A browser game where clicking adds dots to the screen, there are additional buttons for undoing and redoing dots.",
         image: "/images/DotsScreenshot.png",
         alt: "Image of the Dots homescreen.",
         techStack: "Next.js, React, TS", 
@@ -58,7 +58,7 @@ export const myProjects : Project[] = [
     {
         id: 5,
         title: "Find the Hat",
-        description: "Project completed on CodeCademy - find the hat '^' by moving through the maze and avoiding any holes 'O'",
+        description: "Project completed on CodeCademy - find the hat '^' by moving through the maze and avoiding any holes 'O'.",
         image: "/images/findTheHatScreenshot.png",
         alt: "Image of the Find the Hat game.",
         techStack: "JS",

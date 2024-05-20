@@ -10,6 +10,15 @@ interface Project {
 
 export const myProjects : Project[] = [
     {
+        id: 7,
+        title: "Wordle Solver",
+        description: "A JavaScript script that automatically solves the popular word game Wordle using a letter frequency score system. Achieves a 97.37% success rate by analyzing letter frequencies, scoring words, and iteratively narrowing down solutions based on feedback.",
+        image: "/images/wordle-solver-image.png",
+        alt: "Image of wordle solver in action",
+        techStack: "JavaScript",
+        link: "https://github.com/rufusbiggs/wordle-solver"
+    },
+    {
         id: 0,
         title: "Wordle",
         description: "Challenged myself to recreate the popular game wordle. Guess a 5 letter word with 6 tries!",

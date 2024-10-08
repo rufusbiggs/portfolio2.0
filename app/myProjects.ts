@@ -13,7 +13,7 @@ export const myProjects : Project[] = [
         id: 8,
         title: "Full-Stack Sudoku Game",
         description: "I developed a full-stack Sudoku game with a React/Next.js front-end, built using TypeScript for type safety and modern UI features. The back-end is powered by a Python-based Sudoku generator and solver, leveraging recursion for puzzle generation. A Flask API connects the front-end with the back-end, enabling real-time interaction between the two. The front-end is hosted on Netlify, while the back-end is deployed on PythonAnywhere, ensuring a seamless, scalable solution. All project management and version control is done via Git, making this a key piece of my portfolio.",
-        image: "/images/sudoku_pic.png",
+        image: "/images/sudoku-slim.png",
         alt: "Image of Sudoku game in action",
         techStack: "React/Next.js, Typescript, Python, Flask, Netlify, PythonAnywhere, Git",
         link: "https://67040271ec44c700081c25a9--rufs-sudoku-game.netlify.app/"

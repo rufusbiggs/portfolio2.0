@@ -16,7 +16,7 @@ export const myProjects : Project[] = [
         image: "/images/sudoku-slim.png",
         alt: "Image of Sudoku game in action",
         techStack: "React/Next.js, Typescript, Python, Flask, Netlify, PythonAnywhere, Git",
-        link: "https://67040271ec44c700081c25a9--rufs-sudoku-game.netlify.app/"
+        link: "https://rufs-sudoku-game.netlify.app/"
     },
     {
         id: 7,

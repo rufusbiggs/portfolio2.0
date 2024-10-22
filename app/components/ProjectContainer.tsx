@@ -15,7 +15,7 @@ const ProjectContainer = (project : Project) => {
     <div className="individualProjects">
       <div className="projectTitle">
         <h3>{project.title}</h3>
-        {project.link ? <a href={project.link} target="_blank" className="projectLink" ><p className="projectLinkText" >View project here</p></a> : <p>In Progress</p>}
+        {project.link != '(In Progress)' ? <a href={project.link} target="_blank" className="projectLink" ><p className="projectLinkText" >View project here</p></a> : <p className="projectLinkText">In Progress</p>}
       </div>
       <div className="individual-projects-bottom">
           <div className="projectDescTechLink" >

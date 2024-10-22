@@ -10,6 +10,15 @@ interface Project {
 
 export const myProjects : Project[] = [
     {
+        id: 9,
+        title: "PillTrack",
+        description: "PillTrack is an intuitive medication stock tracking app designed to reduce the stress of managing prescriptions. It helps users monitor their stock levels and receive timely reminders to reorder medications, ensuring they never run out. Built with React Native and TypeScript, and leveraging Expo and Firebase, PillTrack offers a reliable and secure experience. I plan to host the app on cloud services and submit it to the App Store and Google Play, making it accessible for all users seeking peace of mind in managing their health.",
+        image: "/images/PillTrack.jpeg",
+        alt: "Image of PillTrack homePage in action",
+        techStack: "React Native, Typescript, Expo, FireBase, Git",
+        link: "(In Progress)"
+    },
+    {
         id: 8,
         title: "Full-Stack Sudoku Game",
         description: "I developed a full-stack Sudoku game with a React/Next.js front-end, built using TypeScript for type safety and modern UI features. The back-end is powered by a Python-based Sudoku generator and solver, leveraging recursion for puzzle generation. A Flask API connects the front-end with the back-end, enabling real-time interaction between the two. The front-end is hosted on Netlify, while the back-end is deployed on PythonAnywhere, ensuring a seamless, scalable solution. All project management and version control is done via Git, making this a key piece of my portfolio.",

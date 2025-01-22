@@ -8,16 +8,13 @@ const AboutMe = () => {
                 <h1>Rufus Biggs</h1>
                 <h1>About Me</h1> {/* For smaller screens width < 500px */}
                 <p>
-                  Hi, I&apos;m Rufus! In 2023 I embarked on a career transition to learn a range of web development
-                   technologies alongside completing several coding courses. I have used React, Next and Firebase 
-                   to build and launch a full-stack web app and - most importantly - discovered a real passion for 
-                   coding in the process.
-                </p>
-
-                <p>
-                  I have a background rooted in problem solving; at university I completed a masters in Mathematical 
-                  Engineering which led me into a product management role in a tech start-up. Here, I helped to develop 
-                  software from zero to one.
+                I am a driven individual with a track record of delivering innovative and successful
+                software products. Building upon my experience working at a fintech startup as a
+                Business Analyst, I am forging a new career path as a Software Engineer. The
+                transition compliments my technical problem solving skills, hunger for learning and
+                attention to detail which I have honed throughout my education, career and personal
+                development journey. I am now eager to develop these skills in a team environment
+                working on meaningful projects.
                 </p>
                   
                 <p>

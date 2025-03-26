@@ -11,8 +11,8 @@ const AboutMe = () => {
                 Driven and detail-oriented, I have a track record of delivering innovative software products. 
                   With a background as a Business Analyst in a fintech startup, I’ve expanded my technical expertise
                   through hands-on development and problem-solving projects. I am now eager to apply my analytical 
-                  skills and technical knowledge to something new. Ideally in a collaborative team and working on 
-                  meaningful projects. Checkout some of my own personal projects below!
+                  skills and technical knowledge in a new challenge, ideally within a collaborative team working on 
+                  meaningful and impactful projects. Checkout some of my own personal projects below!
                 </p>
                   
                 <p>

@@ -8,13 +8,11 @@ const AboutMe = () => {
                 <h1>Rufus Biggs</h1>
                 <h1>About Me</h1> {/* For smaller screens width < 500px */}
                 <p>
-                I am a driven individual with a track record of delivering innovative and successful
-                software products. Building upon my experience working at a fintech startup as a
-                Business Analyst, I am forging a new career path as a Software Engineer. The
-                transition compliments my technical problem solving skills, hunger for learning and
-                attention to detail which I have honed throughout my education, career and personal
-                development journey. I am now eager to develop these skills in a team environment
-                working on meaningful projects.
+                Driven and detail-oriented, I have a track record of delivering innovative software products. 
+                  With a background as a Business Analyst in a fintech startup, I’ve expanded my technical expertise
+                  through hands-on development and problem-solving projects. I am now eager to apply my analytical 
+                  skills and technical knowledge to something new. Ideally in a collaborative team and working on 
+                  meaningful projects. Checkout some of my own personal projects below!
                 </p>
                   
                 <p>

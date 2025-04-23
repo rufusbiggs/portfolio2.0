@@ -10,24 +10,6 @@ interface Project {
 
 export const myProjects : Project[] = [
     {
-        id: 12,
-        title: "Stock Price Tracker and Recommendation System",
-        description: "The project is a real-time stock price tracking application that fetches up-to-date stock prices, stores historical data, and allows querying trends over time. It uses Golang for backend logic and integrates several cloud services for scalability and automation. Now the tracker is working, I'm aiming to introduce an ML-based buy/sell/hold recommendation system.",
-        image: "/images/StockPriceTracker.png",
-        alt: "CandleStick Chart",
-        techStack: "Golang, PostgreSQL, AWS Lambda, AWS RDS, AWS CloudWatch, AWS EventBridge, Postman",
-        link: "https://github.com/rufusbiggs/stock-price-tracker" 
-    },
-    {
-        id: 11,
-        title: "URL Shortener Service",
-        description: "This project is a URL shortener service that allows users to shorten URLs and redirect them when visited. The service is built with Go (Golang) for the backend, using PostgreSQL as the database for storing URL mappings. The project is hosted on Heroku with a containerized deployment, using a Docker-based CI/CD pipeline for continuous integration and deployment.",
-        image: "/images/URLShortener.png",
-        alt: "Postman Image of Service",
-        techStack: "Golang, PostgreSQL, Docker, Heroku, Github Actions (CI/CD), Built in Analytics, Postman",
-        link: "https://github.com/rufusbiggs/url-shortener" 
-    },
-    {
         id: 9,
         title: "PillTrack",
         description: "PillTrack is an intuitive medication stock tracking app designed to reduce the stress of managing prescriptions. It helps users monitor their stock levels and receive timely reminders to reorder medications, ensuring they never run out. Built with React Native and TypeScript, and leveraging Expo and Firebase, PillTrack offers a reliable and secure experience. I plan to host the app on cloud services and submit it to the App Store and Google Play, making it accessible for all users seeking peace of mind in managing their health.",
@@ -35,15 +17,6 @@ export const myProjects : Project[] = [
         alt: "Image of PillTrack homePage in action",
         techStack: "React Native, Typescript, Expo, FireBase, Git",
         link: "(In Progress)"
-    },
-    {
-        id: 10,
-        title: "E-Commerce API",
-        description: "An e-commerce API built with Go, using Gorilla Mux for routing, PostgreSQL for data persistence, and containerized with Docker. The aim of this project was to develop my Golang skills and API bet practices, also learning about Docker and Containerization.",
-        image: "/images/ECommerce.png",
-        alt: "No Image",
-        techStack: "Go, Gorilla Mux, PostgreSQL, Docker, Postman",
-        link: "https://github.com/rufusbiggs/ecommerce-go-api"
     },
     {
         id: 8,
@@ -62,6 +35,33 @@ export const myProjects : Project[] = [
         alt: "Image of wordle solver in action",
         techStack: "JavaScript, Netlify, Git",
         link: "https://github.com/rufusbiggs/wordle-solver"
+    },
+    {
+        id: 12,
+        title: "Stock Price Tracker and Recommendation System",
+        description: "The project is a real-time stock price tracking application that fetches up-to-date stock prices, stores historical data, and allows querying trends over time. It uses Golang for backend logic and integrates several cloud services for scalability and automation. Now the tracker is working, I'm aiming to introduce an ML-based buy/sell/hold recommendation system.",
+        image: "/images/StockPriceTracker.png",
+        alt: "CandleStick Chart",
+        techStack: "Golang, PostgreSQL, AWS Lambda, AWS RDS, AWS CloudWatch, AWS EventBridge, Postman",
+        link: "https://github.com/rufusbiggs/stock-price-tracker" 
+    },
+    {
+        id: 11,
+        title: "URL Shortener Service",
+        description: "This project is a URL shortener service that allows users to shorten URLs and redirect them when visited. The service is built with Go (Golang) for the backend, using PostgreSQL as the database for storing URL mappings. The project is hosted on Heroku with a containerized deployment, using a Docker-based CI/CD pipeline for continuous integration and deployment.",
+        image: "/images/URLShortener.png",
+        alt: "Postman Image of Service",
+        techStack: "Golang, PostgreSQL, Docker, Heroku, Github Actions (CI/CD), Built in Analytics, Postman",
+        link: "https://github.com/rufusbiggs/url-shortener" 
+    },
+    {
+        id: 10,
+        title: "E-Commerce API",
+        description: "An e-commerce API built with Go, using Gorilla Mux for routing, PostgreSQL for data persistence, and containerized with Docker. The aim of this project was to develop my Golang skills and API bet practices, also learning about Docker and Containerization.",
+        image: "/images/ECommerce.png",
+        alt: "No Image",
+        techStack: "Go, Gorilla Mux, PostgreSQL, Docker, Postman",
+        link: "https://github.com/rufusbiggs/ecommerce-go-api"
     },
     {
         id: 0,

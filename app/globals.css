@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 * {
-    color: #E0E0E0;
+    color: #1F2937;
     line-height: 1.5em;
 }
 
@@ -13,7 +13,7 @@ Nav {
   top: 0;
   height: 100%;
   width: 40%;
-  background-color: #2A254A;
+  background-color: #E0E8F9;
   font-family: Monospace;
   font-weight: bolder;
 }
@@ -21,7 +21,7 @@ Nav {
 .navigation-items {
   list-style-type: none;
   font-size: 4.5rem;
-  color: #FFFFFF;
+  color: #1F2937;
 }
 
 .navigation-items a {
@@ -53,7 +53,7 @@ main {
   width: 60%;
   top: 0;
   left: 0;
-  background-color: #1E1B3A;
+  background-color: #F5F7FA;
   font-family: Monospace;
 }
 
@@ -62,7 +62,7 @@ main {
 .logo-container {
   height: 11rem;
   margin: 1.7rem 2.2rem;
-  background-color: #1E1B3A;
+  background-color: #F5F7FA;
 }
 
 #logo-black {
@@ -153,6 +153,7 @@ main {
 
 h1 {
   font-size: 26px;
+    color: 4B5563;
 }
 
 /* About me section */
@@ -189,10 +190,10 @@ h1 {
 }
 
 .individualProjects {
-  border: solid 1px #3B3763;
+  border: solid 1px #E5E7EB;
   border-radius: 8px;
   padding: 0 1rem;
-  background-color: #29264D;
+  background-color: #FFFFFF;
   margin-bottom: 2rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }

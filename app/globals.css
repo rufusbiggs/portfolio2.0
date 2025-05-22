@@ -14,7 +14,7 @@ Nav {
   height: 100%;
   width: 40%;
   background-color: #E0E8F9;
-  font-family: Monospace;
+  font-family: Sora;
   font-weight: bolder;
 }
 
@@ -54,7 +54,7 @@ main {
   top: 0;
   left: 0;
   background-color: #F5F7FA;
-  font-family: Monospace;
+  font-family: Sora;
 }
 
 /* Logo styling */
